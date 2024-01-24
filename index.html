@@ -13,7 +13,7 @@
    <div class="d-flex bd-danger ms-5 pt-5">
     <div><img class="border rounded-5 gend ms-5" src="images/1684347450324.jpg" width="100"  alt=""></div>
     <div><img class="border rounded-5 ddd " src="images/1685967251362.jpg" width="100" alt=""></div>
-    <div><img class="border rounded-5 gendi " src="images/1685967251362.jpg" width="100" alt=""></div>
+    <!-- <div><img class="border rounded-5 gendi " src="images/1685967251362.jpg" width="100" alt=""></div> -->
    </div>
 
     <div class="d-flex col-10 mx-auto">
@@ -23,18 +23,55 @@
 
    
 <button class="btn btn-lg btn-primary but col-10" onclick="submit()">ytfyujgyu</button>
+<div class="d-flex bd-danger ms-5 pt-5">
+    <div id="show">uguyhu</div>
+</div>
+
 
     <script>
+        var inpGirl = document.getElementById('girl').value
+        var inpBoy = document.getElementById('boy').value
+        var loveNumb = Math.round(Math.random()*100)
+        console.log(loveNumb);
     const submit = () => {
-        let inpGirl = document.getElementById('girl').value
-        let inpBoy = document.getElementById('boy').value
-        if(inpGirl=== "" || inpBoy ==="" ){
+
+        if(inpGirl === "" || inpBoy === "" ){
         alert("egbadun ma/sir")
+        }else{
+            inpBoy = ""
+            inpGirl = ""
+            alert("you are good to go sir/ma")
         }
-         else{
-        alert("PLS CONTINUE")
-         }
-    }
+        // if(loveNumb <0 && loveNumb >= 20){
+        //     console.log("hello")
+        // } else if(loveNumb <20 && loveNumb >= 35){
+        //     console.log("hello")
+        // } else if(loveNumb <35 && loveNumb >= 44){
+        //     console.log("hello")
+        // } else if(loveNumb <44 && loveNumb >= 50){
+        //     console.log("hello")
+        // } else if(loveNumb <50 && loveNumb >= 65){
+        //     console.log("hello")
+        // } else if(loveNumb <65 && loveNumb >= 79){
+        //     console.log("hello")
+        // } else if(loveNumb <79 && loveNumb >= 90){
+        //     console.log("hello")
+        // } else if(loveNumb <90 && loveNumb >= 100){
+        //     console.log("hello")
+        // }
+        } 
+
+        
+
+
+
+        //  else{
+        // alert("PLS CONTINUE")
+        //  }
+    
     </script>
 </body>
 </html>
+<!-- var op = Math.round(Math.random()*10000) 
+var refNo = `2024${op}`
+console.log(refNo); -->

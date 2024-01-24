@@ -9,13 +9,32 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+        <h1 class=" pt-5">love calculator</h1>
+   <div class="d-flex bd-danger ms-5 pt-5">
+    <div><img class="border rounded-5 gend ms-5" src="images/1684347450324.jpg" width="100"  alt=""></div>
+    <div><img class="border rounded-5 ddd " src="images/1685967251362.jpg" width="100" alt=""></div>
+    <div><img class="border rounded-5 gendi " src="images/1685967251362.jpg" width="100" alt=""></div>
+   </div>
+
+    <div class="d-flex col-10 mx-auto">
+    <input type="text" class="form-control col-lg-4 col-4 w-50 me-3" id="girl">
+    <input type="text" class="form-control col-lg-4 col-4 w-50 ms-lg-4 ms-sm-1" id="boy">
+   </div>
+
    
-
-
-
+<button class="btn btn-lg btn-primary but col-10" onclick="submit()">ytfyujgyu</button>
 
     <script>
-
+    const submit = () => {
+        let inpGirl = document.getElementById('girl').value
+        let inpBoy = document.getElementById('boy').value
+        if(inpGirl=== "" || inpBoy ==="" ){
+        alert("egbadun ma/sir")
+        }
+         else{
+        alert("PLS CONTINUE")
+         }
+    }
     </script>
 </body>
 </html>

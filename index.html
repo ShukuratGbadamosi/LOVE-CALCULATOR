@@ -22,56 +22,66 @@
    </div>
 
    
-<button class="btn btn-lg btn-primary but col-10" onclick="submit()">ytfyujgyu</button>
+<button class="btn btn-lg btn-primary but col-10" onclick="submit()">ytfyujbkjhjhkgyu</button>
 <div class="d-flex bd-danger ms-5 pt-5">
-    <div id="show">uguyhu</div>
+    <div id="show" class="" ></div>
 </div>
 
 
     <script>
-        var inpGirl = document.getElementById('girl').value
-        var inpBoy = document.getElementById('boy').value
-        var loveNumb = Math.round(Math.random()*100)
-        console.log(loveNumb);
-    const submit = () => {
+        const submit = () => {
+            let loveNumb = Math.round(Math.random()*100)
 
-        if(inpGirl === "" || inpBoy === "" ){
-        alert("egbadun ma/sir")
-        }else{
-            inpBoy = ""
-            inpGirl = ""
-            alert("you are good to go sir/ma")
-        }
-        // if(loveNumb <0 && loveNumb >= 20){
-        //     console.log("hello")
-        // } else if(loveNumb <20 && loveNumb >= 35){
-        //     console.log("hello")
-        // } else if(loveNumb <35 && loveNumb >= 44){
-        //     console.log("hello")
-        // } else if(loveNumb <44 && loveNumb >= 50){
-        //     console.log("hello")
-        // } else if(loveNumb <50 && loveNumb >= 65){
-        //     console.log("hello")
-        // } else if(loveNumb <65 && loveNumb >= 79){
-        //     console.log("hello")
-        // } else if(loveNumb <79 && loveNumb >= 90){
-        //     console.log("hello")
-        // } else if(loveNumb <90 && loveNumb >= 100){
-        //     console.log("hello")
-        // }
+            let inpGirl = document.getElementById('girl').value
+            let inpBoy = document.getElementById('boy').value
+            
+            if(inpGirl != "" || inpBoy != "" ){
+                document.getElementById('girl').value = ""
+                document.getElementById('boy').value = ""
+                if(loveNumb >=0 && loveNumb < 20){
+                    console.log("hello")
+                    show.innerHTML = `<p>Dear lovers your percentage is ${loveNumb}</p>
+                    <h1>dander zone ${inpBoy}, run for your life</h1>`
+                } else if(loveNumb >=20 && loveNumb < 35){
+                    return true
+                    show.innerHTML = `<p>Dear lovers your percentage is ${loveNumb}</p>
+                    <h1>dander zone ${inpBoy}, ruyour life</h1>`
+                } else if(loveNumb >=35 && loveNumb < 44){
+                    console.log("hello")
+                    show.innerHTML = `<p>Dear lovers your percentage is ${loveNumb}</p>
+                    <h1>dander zone ${inpBoy}, run for youre</h1>`
+                } else if(loveNumb >=44 && loveNumb < 50){
+                    console.log("hello")
+                    show.innerHTML = `<p>Dear lovers your percentage is ${loveNumb}</p>
+                    <h1>dander zone ${inpBoy}, run for r life</h1>`
+                } else if(loveNumb >=50 && loveNumb < 65){
+                    console.log("hello")
+                    show.innerHTML = `<p>Dear lovers your percentage is ${loveNumb}</p>
+                    <h1>dander zone ${inpBoy}, rn for your life</h1>`
+                } else if(loveNumb >=65 && loveNumb < 79){
+                    console.log("hello")
+                    show.innerHTML = `<p>Dear lovers your percentage is ${loveNumb}</p>
+                    <h1>dander zone ${inpBoy}, run for your life</h1>`
+                } else if(loveNumb >=79 && loveNumb < 90){
+                    console.log("hello")
+                    show.innerHTML = `<p>Dear lovers your percentage is ${loveNumb}</p>
+                    <h1>perfect match from heaven ${inpBoy}, dont leave her alone</h1>`
+                } else if(loveNumb >=90 && loveNumb < 100){
+                    console.log("hello")
+                    show.innerHTML = `<p>Dear lovers your percentage is ${loveNumb}</p>
+                    <h1>perfect match from heaven ${inpBoy}, dont leave her alone</h1>`
+
+                }
+            }
         } 
+        document.getElementById('girl').value = ""
+        document.getElementById('boy').value = ""
 
         
 
 
 
-        //  else{
-        // alert("PLS CONTINUE")
-        //  }
     
     </script>
 </body>
 </html>
-<!-- var op = Math.round(Math.random()*10000) 
-var refNo = `2024${op}`
-console.log(refNo); -->

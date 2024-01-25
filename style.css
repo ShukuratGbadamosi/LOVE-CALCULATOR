@@ -1,7 +1,18 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+.love{
+    font-family: Permanent Marker;
+    font-size: px;
+    color: #ff4bb4;
 }
 body{
     background-image: url(images/1700907801490.jpg );
@@ -20,6 +31,7 @@ h1{
 }
 .ddd{
     display: none;
+
 }
 .but{
     margin-left: 250px;
@@ -166,6 +178,7 @@ button {
     .ddd{
         display: block;
         transform: translateX(50px);
+        margin-bottom: 20px;
     }
     .gendi{
         display: none;

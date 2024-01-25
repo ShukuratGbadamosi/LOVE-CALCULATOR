@@ -19,8 +19,8 @@
    </div>
 
     <div class="d-flex col-10 mx-auto">
-    <input type="text" class="form-control col-lg-4 col-4 w-50 me-3" id="girl">
-    <input type="text" class="form-control col-lg-4 col-4 w-50 ms-lg-4 ms-sm-1" id="boy">
+    <input type="text" class="form-control col-lg-4 col-4 w-50 me-3" id="girl" placeholder="Female">
+    <input type="text" class="form-control col-lg-4 col-4 w-50 ms-lg-4 ms-sm-1" id="boy" placeholder="Male">
    </div>
 
    <button class="but col-8" onclick="submit()">
@@ -119,34 +119,42 @@
                 if(loveNumb >=0 && loveNumb < 20){
                     console.log("hello")
                     show.innerHTML = `<h3 class = "text-center" >Dear lovers your percentage is ${loveNumb}%</h3>
+                    <br>
                     <h1 class="text-danger text-center">dander zone ${inpBoy}, run for your life</h1>`
                 } else if(loveNumb >=20 && loveNumb < 35){
                     return true
                     show.innerHTML = `<h3 class = "text-center" >Dear lovers your percentage is ${loveNumb}%</h3>
+                    <br>
                     <h1 class="text-danger text-center">${inpBoy}and ${inpGirl} are the mismatched socks of the romance world – a little quirky, a lot chaotic, and completely fabulous. 🧦😜❤️</h1>`
                 } else if(loveNumb >=35 && loveNumb < 44){
                     console.log("hello")
                     show.innerHTML = `<h3 class = "text-center" >Dear lovers your percentage is ${loveNumb}%</h3>
-                    <h1 class = "text-warning text-center">you guys were like two puzzle  pieces from different sets, that can never be fit into the other picture</h1>`
+                    <br>
+                    <h1 class = "text-warning text-center">You guys were like two puzzle  pieces from different sets, that can never be fit into the other picture</h1>`
                 } else if(loveNumb >=44 && loveNumb < 50){
                     console.log("hello")
                     show.innerHTML = `<h3 class = "text-center" >Dear lovers your percentage is ${loveNumb}%</h3>
+                    <br>
                     <h1 class = "text-warning text-center">They said opposites attract, but you're more like 'like-minded minds.' 🧠💖👯‍♂️</h1>`
                 } else if(loveNumb >=50 && loveNumb < 65){
                     console.log("hello")
                     show.innerHTML = `<h3 class = "text-center" >Dear lovers your percentage is ${loveNumb}%</h3>
-                    <h1 class=" with ${inpGirl} by your side, ${inpBoy} you can do anything. Two heart, one love. </h1>`
+                    <br>
+                    <h1 class = "text-warning text-center">They said find your better half, but ${inpGirl} you found someone who complements your weird half instead. 🤪➡️🤷‍♀️</h1>`
                 } else if(loveNumb >=65 && loveNumb < 79){
                     console.log("hello")
                     show.innerHTML = `<h3 class = "text-center" >Dear lovers your percentage is ${loveNumb}%</h3>
-                    <h1 class=" text-center"> you were like the perfect puzzle pieces – no forcing, just a natural click that even jigsaw envy. 🧩💑🎉"</h1>`
+                    <br>
+                    <h1 class=" text-center text-success"> You're like the perfect puzzle pieces – no forcing, just a natural click that even jigsaw envy. 🧩💑🎉"</h1>`
                 } else if(loveNumb >=79 && loveNumb < 90){
                     console.log("hello")
                     show.innerHTML = `<h3>Dear lovers your percentage is ${loveNumb}%</h3>
-                    <h1 class=" text-center">You guys fit together like coffee and mornings – a match made in caffeinated heaven. ☕️🌅❤️</h1>`
+                    <br>
+                    <h1 class=" text-center text-success">You guys fit together like coffee and mornings, the best chemistry of the year a match made in caffeinated heaven. ☕️🌅❤️</h1>`
                 } else if(loveNumb >=90 && loveNumb < 100){
                     console.log("hello")
-                    show.innerHTML = `<p class="text-danger mx-auto">Dear lovers your percentage is ${loveNumb}</p>
+                    show.innerHTML = `<h3 class=" mx-auto">Dear lovers your percentage is ${loveNumb}</h3>
+                    <br>
                     <h1 class="text-success" >perfect match from heaven ${inpBoy}, dont leave her alone</h1>`
 
                 }

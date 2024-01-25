@@ -11,8 +11,7 @@
 }
 .love{
     font-family: Permanent Marker;
-    font-size: px;
-    color: #ff4bb4;
+    color: #cf07f7;
 }
 body{
     background-image: url(images/1700907801490.jpg );
@@ -179,13 +178,15 @@ button {
         display: block;
         transform: translateX(50px);
         margin-bottom: 20px;
+        border-radius: 100px;
+
     }
     .gendi{
         display: none;
+
     }
     .but{
         margin-left: 70px;
-        margin-top: 20px;
     }
     
     
